@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang = en>
-    <head>
-        <meta charset="UTF-8">
-        <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <section id="hero">
-            <video autoplay muted loop playsinline class="bg-video">
-  <source src="your-video.mp4" type="video/mp4">
-  <!-- Optional: add .webm or .ogv formats for broader browser support -->
-</video>
-            <div class="container">
-                <div class="info"> 
-                    <h1>Click Here To Begin</h1>
-                </div>
-            </div>
-        </section>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hero Video Cycle</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="hero">
+    <!-- Video element controlled by JavaScript -->
+    <video id="heroVideo" autoplay muted playsinline></video>
 
+    <!-- Overlay content -->
+    <div class="container">
+      <div class="info">
+        <h1>Click Here To Begin</h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Link to your JavaScript file -->
+  <script src="script.js"></script>
+</body>
 </html>
-
-
