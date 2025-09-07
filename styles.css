@@ -357,3 +357,28 @@ html {
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
+
+
+#PS {
+  background-color: #c6e1f2;     /* Copilot-style dark background */
+  color: #000000;                /* Bright white text for contrast */
+  text-align: center;            /* Center all text */
+  padding: 100px 20px;           /* Generous spacing top and bottom */
+}
+
+#PS h2 {
+  font-size: 3rem;               /* Large heading */
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+#PS p {
+  font-size: 1.5rem;             /* Larger paragraph text */
+  max-width: 800px;              /* Limit width for readability */
+  margin: 0 auto;                /* Center horizontally */
+  line-height: 1.6;
+}
+
+#PS p.last {
+  margin-bottom: 60px;
+}
