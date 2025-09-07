@@ -36,4 +36,324 @@
   border-radius: 10px;
 }
 
+/* Remove default margin and padding from the body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#startBtn {
+  display: inline-block;               /* Makes the link behave like a button */
+  font-size: 4.5rem;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(24, 19, 19);                        /* Changed from rgb(56, 53, 53) to white for better contrast */
+  border: 2px solid #151A28;
+  border-radius: 8px;
+  text-decoration: none;              /* Removes underline from link */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#startBtn:hover {
+  background-color: rgba(22, 19, 19, 0.3);
+  transform: scale(1.05);
+}
+
+
+#about {
+  background-color: #151A28;     /* Copilot-style dark background */
+  color: #ffffff;                /* Bright white text for contrast */
+  text-align: center;            /* Center all text */
+  padding: 100px 20px;           /* Generous spacing top and bottom */
+}
+
+#about h2 {
+  font-size: 3rem;               /* Large heading */
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+#about p {
+  font-size: 1.5rem;             /* Larger paragraph text */
+  max-width: 800px;              /* Limit width for readability */
+  margin: 0 auto;                /* Center horizontally */
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+#imageSection {
+  background-color: #151A28;     /* Match Copilot-style dark background */
+  text-align: center;            /* Center the image horizontally */
+  padding: 60px 20px;
+}
+
+.about-image {
+  width: 50%;                    /* Scales down the image */
+  max-width: 800px;              /* Prevents it from getting too large */
+  height: auto;                  /* Keeps aspect ratio */
+  border-radius: 12px;           /* Optional: soft rounded corners */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Subtle glow */
+}
+
+#Intro {
+  background-color: #151A28;     /* Copilot-style dark background */
+  color: #ffffff;                /* Bright white text */
+  text-align: center;            /* Center all text */
+  padding: 100px 20px;           /* Generous spacing */
+}
+
+#Intro h2 {
+  font-size: 3rem;               /* Large heading */
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+#Intro p {
+  font-size: 1.5rem;             /* Larger paragraph text */
+  max-width: 800px;              /* Keeps it readable */
+  margin: 0 auto;                /* Centers horizontally */
+  line-height: 1.6;
+}
+
+
+
+#Precalc {
+  background-color: #c6e1f2;
+  color: #1a1a1a;
+  padding: 100px 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#Precalc .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.text-block {
+  flex: 1;
+  min-width: 300px;
+}
+
+.text-block h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.text-block p {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  text-align: left;
+  margin: 0;
+  max-width: 700px;
+}
+
+.image-block {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.precalc-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+#Job {
+  background-color: #c6e1f2;     /* Light blue background */
+  color: #1a1a1a;                /* Dark gray text for contrast */
+  padding: 100px 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#Job .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  flex-direction: row-reverse;   /* Reverses layout: text on right, image on left */
+}
+
+.text-block {
+  flex: 1;
+  min-width: 300px;
+  text-align: right;             /* Aligns heading and paragraph to the right */
+}
+
+.text-block h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.text-block p {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 700px;
+}
+
+.image-block {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.job-image {
+  width: 100%;
+  max-width: 600px;              /* Scaled up image */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+#Lifestle {
+  background-color: #c6e1f2;     /* Light blue background */
+  color: #1a1a1a;                /* Dark gray text for contrast */
+  padding: 100px 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#Lifestle .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.text-block {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.text-block h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.text-block p {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 700px;
+  white-space: normal;
+}
+
+.image-block {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.life-image {
+  width: 100%;
+  max-width: 800px;              /* Scaled up image */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+#Break {
+  background-color: #c6e1f2;     /* Light blue background */
+  color: #1a1a1a;                /* Dark gray text for contrast */
+  padding: 100px 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#Break .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  flex-direction: row-reverse;   /* Reverses layout: text on right, image on left */
+}
+
+.text-block {
+  flex: 1;
+  min-width: 300px;
+  text-align: right;             /* Aligns heading and paragraph to the right */
+}
+
+.text-block h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.text-block p {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 700px;
+  white-space: normal;
+}
+
+.image-block {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.break-image {
+  width: 100%;
+  max-width: 600px;              /* Scaled up image */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+#End {
+  background-color: #151A28;     /* Copilot-style dark background */
+  color: #ffffff;                /* Bright white text for contrast */
+  text-align: center;            /* Center all text */
+  padding: 100px 20px;           /* Generous spacing top and bottom */
+}
+
+#End h2 {
+  font-size: 3rem;               /* Large heading */
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+#End p {
+  font-size: 1.5rem;             /* Larger paragraph text */
+  max-width: 800px;              /* Limit width for readability */
+  margin: 0 auto;                /* Center horizontally */
+  line-height: 1.6;
+}
+
+
+#finalVideo {
+  background-color: #151A28;     /* Copilot-style dark background */
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.final-clip {
+  width: 90%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
